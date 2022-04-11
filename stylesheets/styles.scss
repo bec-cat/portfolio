@@ -219,6 +219,7 @@ section {
     }
 }
 
+// timeline
 .timeline {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -293,6 +294,23 @@ section {
         height: 1px;
         background-color: var(--color-grey5);
         transform: translateX(-50%);
+    }
+}
+
+//hobbies
+.hobbies {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    .hobbies-item {
+        position: relative;
+
+        img {
+            width: 95%;
+            height: 90%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
     }
 }
 
