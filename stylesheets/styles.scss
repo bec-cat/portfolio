@@ -209,7 +209,7 @@ section {
     
     &:hover {
         animation: pulse 1s infinite;
-        transition: 0.3s;
+        transition: .3s;
     }
     
     @keyframes pulse {
@@ -218,7 +218,7 @@ section {
         }
     
         70% {
-            transform: scale(0.9);
+            transform: scale(.9);
         }
     
         100% {
