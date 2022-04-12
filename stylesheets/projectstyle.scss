@@ -91,6 +91,37 @@ body {
                 height: 60%;
             }
         }
+
+        .task {
+            padding: 3rem 16rem;
+            background-color: white;
+            border-radius: 10px;
+
+            h5 {
+                font-size: 1.7rem;
+                font-weight: 600;
+                margin-bottom: .8rem;
+            }
+
+            span {
+                font-size: 1.3rem;
+            }
+
+            .task-list {
+                font-size: 1.4rem;
+                font-weight: 600;
+                color: rgb(135, 74, 0);
+                line-height: 3.2rem;
+                letter-spacing: 1.1px;
+
+                .num {
+                    color: black;
+                    padding-left: 2.5rem;
+                    font-weight: 500;
+                    font-size: 1.3rem;
+                }
+            }
+        }
     }
 
     .view-btn {
