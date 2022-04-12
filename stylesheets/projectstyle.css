@@ -74,6 +74,40 @@ body {
   height: 100%;
 }
 
+.subcontent-container .subcontent-white .subheading h4 {
+  font-size: 1.1rem;
+}
+
+.subcontent-container .subcontent-white .subheading .subheading-wrl {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6rem;
+}
+
+.subcontent-container .subcontent-white .subheading .subheading-h {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  margin-left: 10rem;
+}
+
+.subcontent-container .subcontent-white .subheading .subheading-h img {
+  height: 100%;
+  width: 65%;
+}
+
+.subcontent-container .subcontent-white .subheading .subheading-img {
+  margin-left: 25rem;
+}
+
+.subcontent-container .subcontent-white .subheading .subheading-img img {
+  height: 100%;
+  width: 45%;
+}
+
 .subcontent-container .subcontent-green {
   margin: 5rem 18rem;
 }
