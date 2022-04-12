@@ -382,6 +382,7 @@ section {
 
 .projects-container .projects-item {
   position: relative;
+  margin-bottom: 3rem;
 }
 
 .projects-container .projects-item img {
@@ -389,13 +390,20 @@ section {
   height: 90%;
   -o-object-fit: contain;
      object-fit: contain;
-  padding-bottom: 3rem;
 }
 
 .projects-container .projects-item .hover-project {
-  position: fixed;
-  top: 662px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  bottom: 0;
   left: 0;
+  right: 0;
   opacity: 0;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
