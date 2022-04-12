@@ -64,6 +64,19 @@ body {
         }
     }
 
+    .subcontent-green {
+        margin: 5rem 18rem;
+
+        .subcontent-title {
+            h3 {
+                font-size: 2.2rem;
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        
+    }
+
     .view-btn {
         font-size: 1.1rem;
         display: inline-block;
@@ -121,7 +134,7 @@ body {
     }
 
     ul {
-        font-size: 1.1rem 'Source Sans 3', sans-serif;
+        font-size: 1.1rem;
         padding-left: 3rem;
         font-weight: 600;
         line-height: 2.7rem;
