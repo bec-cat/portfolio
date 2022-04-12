@@ -325,4 +325,25 @@ body {
 .subcontent-container ul span {
   font-weight: 400;
 }
+
+.next-project {
+  text-align: center;
+}
+
+.next-project hr {
+  margin-left: -10rem;
+  margin-right: -10rem;
+}
+
+.next-project p {
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.next-project a .project-image {
+  width: 60%;
+  height: 360px;
+  margin-left: 37.5rem;
+}
 /*# sourceMappingURL=projectstyle.css.map */
