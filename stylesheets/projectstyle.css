@@ -218,6 +218,14 @@ body {
   height: 100%;
 }
 
+.subcontent-container .subcontent-green .video {
+  margin: 0 14rem;
+}
+
+.subcontent-container .subcontent-green .video .cus {
+  margin-right: 2rem;
+}
+
 .subcontent-container .left-affinity:hover .hover-affinity, .subcontent-container .right-affinity:hover .right-hover-affinity,
 .subcontent-container .major-findings:hover .hover-findings {
   opacity: 1;
