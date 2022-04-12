@@ -122,6 +122,81 @@ body {
                 }
             }
         }
+
+        .affinity {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            
+            .hover-affinity {
+                background-color: rgba(69, 69, 69, 0.5);
+                color: white;
+                padding: 1rem 21rem 1rem 1rem;
+                position: absolute;
+                top: 820px;
+                opacity: 0;
+            }
+
+            .right-hover-affinity {
+                background-color: rgba(69, 69, 69, 0.5);
+                color: white;
+                padding: 1rem 21rem 1rem 1rem;
+                margin-right: -1rem;
+                position: absolute;
+                top: 820px;
+                left: 1rem;
+                opacity: 0;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .left-affinity, .right-affinity {
+                position: relative;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        .major-findings {
+            a {
+                text-decoration: none;
+            }
+
+            .hover-findings {
+                background-color: rgba(69, 69, 69, 0.5);
+                color: white;
+                opacity: 0;
+                padding: 1rem 1rem 1rem 1rem;
+                margin-right: -1rem;
+            }
+        }
+
+        img {
+            margin: 0;
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .left-affinity:hover .hover-affinity, .right-affinity:hover .right-hover-affinity, 
+    .major-findings:hover .hover-findings{
+        opacity: 1;
+        animation: slide-in 1000ms;
+    }
+
+    @keyframes slide-in {
+        from {
+            transform: translateY(100%);
+        }
+
+        to {
+            transform: translateY(0%);
+        }
     }
 
     .view-btn {
