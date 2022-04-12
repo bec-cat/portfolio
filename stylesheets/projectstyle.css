@@ -76,6 +76,17 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.subcontent-container .subcontent-green .design-process {
+  margin: 0;
+  position: relative;
+  left: 25%;
+}
+
+.subcontent-container .subcontent-green .design-process img {
+  width: 50%;
+  height: 60%;
+}
+
 .subcontent-container .view-btn {
   font-size: 1.1rem;
   display: inline-block;
