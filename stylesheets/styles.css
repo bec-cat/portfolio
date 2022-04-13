@@ -120,10 +120,10 @@ section {
   color: var(--color-white) !important;
 }
 
-.ctrls img {
+.ctrls .logo {
   position: absolute;
-  bottom: 480px;
-  right: 0;
+  top: -75%;
+  right: 3.5%;
 }
 
 .ctrls .ctrl {

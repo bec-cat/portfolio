@@ -13,16 +13,18 @@ body {
 }
 
 .logo {
-  position: absolute;
-  top: 45px;
-  right: 3.5%;
+  margin: 3.5%;
 }
 
 .grim-image {
-  margin-left: 18rem;
+  margin-left: 9rem;
+  width: 80%;
+  height: 80%;
 }
 
 .grim-image img {
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
