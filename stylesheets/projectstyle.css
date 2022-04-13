@@ -19,13 +19,7 @@ body {
 }
 
 .grim-image {
-  margin: 2rem 10rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-left: 18rem;
 }
 
 .grim-image img {
@@ -127,7 +121,7 @@ body {
 }
 
 .subcontent-container .subcontent-green .task {
-  padding: 3rem 16rem;
+  padding: 3rem;
   background-color: white;
   border-radius: 10px;
 }
@@ -152,9 +146,9 @@ body {
 
 .subcontent-container .subcontent-green .task .task-list .num {
   color: black;
-  padding-left: 2.5rem;
   font-weight: 500;
   font-size: 1.3rem;
+  margin-left: 2rem;
 }
 
 .subcontent-container .subcontent-green .affinity {
@@ -178,11 +172,11 @@ body {
 .subcontent-container .subcontent-green .affinity .right-hover-affinity {
   background-color: rgba(69, 69, 69, 0.5);
   color: white;
-  padding: 1rem 20rem 1rem 1rem;
-  margin-right: -1rem;
+  padding: 1rem;
   position: absolute;
   bottom: 0;
-  left: 1rem;
+  left: 0;
+  right: 0;
   opacity: 0;
 }
 
