@@ -329,8 +329,6 @@ section {
         }
 
         .hover-project {
-            display: flex;
-            flex-direction: row;
             position: absolute;
             bottom: 0;
             left: 0;
@@ -339,9 +337,8 @@ section {
             transition: all .4s ease-in-out;
 
             .grim {
-                
                 background-color: var(--color-white);
-                padding: 1rem 54.15rem 1rem 2.7rem;
+                padding: 1rem;
             }
 
             .stick {
@@ -357,6 +354,7 @@ section {
 
             p {
                 font-size: 1.1rem;
+                text-align: left;
             }
 
             span {

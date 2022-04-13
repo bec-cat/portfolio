@@ -393,13 +393,6 @@ section {
 }
 
 .projects-container .projects-item .hover-project {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -411,7 +404,7 @@ section {
 
 .projects-container .projects-item .hover-project .grim {
   background-color: var(--color-white);
-  padding: 1rem 54.15rem 1rem 2.7rem;
+  padding: 1rem;
 }
 
 .projects-container .projects-item .hover-project .stick {
@@ -427,6 +420,7 @@ section {
 
 .projects-container .projects-item .hover-project p {
   font-size: 1.1rem;
+  text-align: left;
 }
 
 .projects-container .projects-item .hover-project span {
