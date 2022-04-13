@@ -386,10 +386,10 @@ section {
 }
 
 .projects-container .projects-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .projects-container .projects-item .hover-project {
