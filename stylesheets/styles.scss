@@ -325,7 +325,7 @@ section {
         img {
             width: 100%;
             height: 100%;
-            // object-fit: contain;
+            object-fit: cover;
         }
 
         .hover-project {
@@ -336,12 +336,7 @@ section {
             opacity: 0;
             transition: all .4s ease-in-out;
 
-            .grim {
-                background-color: var(--color-white);
-                padding: 1rem;
-            }
-
-            .stick {
+            .grim, .stick{
                 background-color: var(--color-white);
                 padding: 1rem;
             }
