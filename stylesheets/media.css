@@ -1,3 +1,7 @@
+.about-container .left-about p {
+  padding-left: 0;
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 0 !important;
@@ -8,6 +12,9 @@
   .logo img {
     width: 75px;
   }
+  .section {
+    padding: 2rem 2.5rem !important;
+  }
   .home-content {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
@@ -17,7 +24,7 @@
     -ms-grid-row: 1;
     grid-row: 1;
     padding-right: 0 !important;
-    width: 65%;
+    width: 75%;
     margin: 0 auto;
   }
   .right-home .name {
@@ -30,7 +37,7 @@
   }
   .home-content .left-home .img {
     margin: 0 auto;
-    width: 65%;
+    width: 75%;
   }
   .ctrl {
     width: 50px !important;
@@ -39,12 +46,46 @@
   .ctrl i {
     font-size: 1.1rem !important;
   }
+  .about-container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    width: 75%;
+    margin: 0 auto;
+  }
+  .about-container .right-about {
+    padding-top: 1rem;
+  }
+  .about-container .right-about img {
+    width: 160px !important;
+    height: 230px !important;
+  }
+  .about-container .left-about {
+    padding-right: 0;
+  }
+  .about-container .left-about p {
+    padding-left: 0;
+    font-size: 1.1rem;
+  }
+  .about-container .left-about h4 {
+    font-size: 1.5rem;
+  }
+  .about-title {
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+    font-size: 1.5rem;
+  }
   .btn-text {
     padding: 0 1.3rem !important;
     font-size: 1rem;
   }
   .btn-icon {
     font-size: 1rem;
+  }
+  .title h2 {
+    font-size: 2.5rem;
+  }
+  .title h2 .bg-text {
+    font-size: 3.5rem;
   }
 }
 /*# sourceMappingURL=media.css.map */

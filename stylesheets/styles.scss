@@ -207,13 +207,14 @@ section {
     .right-about {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
 
         .about-item {
             position: relative;
 
             img {
-                width: 230px;
-                height: 300px;
+                width: 220px;
+                height: 290px;
                 object-fit: cover;
                 border-radius: var(--br-sm-2);
             }
