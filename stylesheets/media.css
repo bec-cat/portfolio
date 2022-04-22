@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+  header {
+    padding: 0 !important;
+  }
+  .logo {
+    top: 2%;
+  }
+  .logo img {
+    width: 75px;
+  }
+  .home-content {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 6rem;
+  }
+  .right-home {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    padding-right: 0 !important;
+    width: 65%;
+    margin: 0 auto;
+  }
+  .right-home .name {
+    font-size: 2.1rem !important;
+    text-align: center;
+    padding-top: 7.5rem;
+  }
+  .right-home p {
+    font-size: 1.1rem;
+  }
+  .home-content .left-home .img {
+    margin: 0 auto;
+    width: 65%;
+  }
+  .ctrl {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .ctrl i {
+    font-size: 1.1rem !important;
+  }
+  .btn-text {
+    padding: 0 1.3rem !important;
+    font-size: 1rem;
+  }
+  .btn-icon {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=media.css.map */

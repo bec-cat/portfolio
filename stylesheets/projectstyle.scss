@@ -12,10 +12,17 @@ body {
 }
 
 .logo {
-    margin: 3.5%;
-    // position: absolute;
-    // top: 45px;
-    // right: 3.5%;
+    top: 7%;
+    right: 3%;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 95px;
+    }
 }
 
 .grim-image {
