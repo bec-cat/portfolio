@@ -26,9 +26,10 @@ body {
 }
 
 .grim-image {
-    margin-left: 9rem;
+    // margin-left: 9rem;
+    margin: 0 auto;
     width: 80%;
-    height: 80%;
+    // height: 80%;
 
     img {
         width: 100%;
@@ -40,7 +41,10 @@ body {
 .subcontent-item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: -7rem 18rem 2rem;
+    width: 63%;
+    margin: 0 auto;
+    margin-top: -4rem;
+    padding-bottom: 10rem;
 
     .left-subcontent, .center-subcontent, .right-subcontent{
         h4 {
@@ -56,16 +60,14 @@ body {
 }
 
 .subcontent-container {
+    margin: 0 auto;
+    width: 63%;
+    
     .subcontent-white {
+        // padding: 5rem 18rem;
+        margin: -5rem -18rem;
         padding: 5rem 18rem;
         background-color: white;
-
-        .subcontent-title {
-            h3 {
-                font-size: 2.2rem;
-                margin-bottom: 1.5rem;
-            }
-        }
 
         a {
             text-decoration: none;
@@ -112,14 +114,8 @@ body {
     }
 
     .subcontent-green {
-        margin: 5rem 18rem;
-
-        .subcontent-title {
-            h3 {
-                font-size: 2.2rem;
-                margin-bottom: 1.5rem;
-            }
-        }
+        padding: 10rem 0;
+        // margin: 5rem 18rem;
 
         .design-process {
             margin: 0;
@@ -292,6 +288,13 @@ body {
         }
     }
 
+    .subcontent-title {
+        h3 {
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+
     p {
         font-size: 1.1rem;
         line-height: 2.2rem;
@@ -314,3 +317,5 @@ body {
         }
     }
 }
+
+@import './media';
