@@ -79,7 +79,7 @@ section {
 
 .active {
     display: block;
-    animation: appear 1s ease-in-out;
+    animation: appear 1.2s ease-in-out;
     transform: translateY(0) scaleY(1);
 
     @keyframes appear {

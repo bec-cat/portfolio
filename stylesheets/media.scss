@@ -1,6 +1,3 @@
-.about-container .left-about p {
-    padding-left: 0;
-}
 
 @media screen and (max-width: 600px) {
     header {
@@ -33,7 +30,7 @@
         .name {
             font-size: 2.1rem !important;
             text-align: center;
-            padding-top: 7.5rem;
+            padding-top: 5.5rem;
         }
 
         p {
@@ -106,5 +103,47 @@
                 font-size: 3.5rem;
             }
         }
+    }
+
+    .timeline {
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 6rem;
+        margin: 0 auto;
+        width: 75%;
+
+        h5 {
+            font-size: 1.2rem !important;
+
+            span {
+                font-size: 1.2rem;
+            }
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        .timeline-item {
+            padding-left: 2.5rem;
+
+            .tl-icon {
+                width: 45px !important;
+                height: 45px !important;
+    
+                i {
+                    font-size: 1.1rem !important;
+                }
+            }
+        }
+
+        .tl-duration {
+            font-size: .8rem !important;
+        }
+    }
+
+    .hobbies {
+        margin: 0 auto;
+        width: 75%;
+        grid-template-columns: repeat(2, 1fr);
     }
 }

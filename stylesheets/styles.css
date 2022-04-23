@@ -90,8 +90,8 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: appear 1s ease-in-out;
-          animation: appear 1s ease-in-out;
+  -webkit-animation: appear 1.2s ease-in-out;
+          animation: appear 1.2s ease-in-out;
   -webkit-transform: translateY(0) scaleY(1);
           transform: translateY(0) scaleY(1);
 }
@@ -750,10 +750,6 @@ section {
   opacity: .3;
 }
 
-.about-container .left-about p {
-  padding-left: 0;
-}
-
 @media screen and (max-width: 600px) {
   header {
     padding: 0 !important;
@@ -782,7 +778,7 @@ section {
   .right-home .name {
     font-size: 2.1rem !important;
     text-align: center;
-    padding-top: 7.5rem;
+    padding-top: 5.5rem;
   }
   .right-home p {
     font-size: 1.1rem;
@@ -838,6 +834,41 @@ section {
   }
   .title h2 .bg-text {
     font-size: 3.5rem;
+  }
+  .timeline {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 6rem;
+    margin: 0 auto;
+    width: 75%;
+  }
+  .timeline h5 {
+    font-size: 1.2rem !important;
+  }
+  .timeline h5 span {
+    font-size: 1.2rem;
+  }
+  .timeline p {
+    font-size: 1rem;
+  }
+  .timeline .timeline-item {
+    padding-left: 2.5rem;
+  }
+  .timeline .timeline-item .tl-icon {
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .timeline .timeline-item .tl-icon i {
+    font-size: 1.1rem !important;
+  }
+  .timeline .tl-duration {
+    font-size: .8rem !important;
+  }
+  .hobbies {
+    margin: 0 auto;
+    width: 75%;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
   }
 }
 /*# sourceMappingURL=styles.css.map */
