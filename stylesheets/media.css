@@ -127,12 +127,74 @@
     font-size: 1.5rem !important;
   }
   .hover-project p {
-    font-size: 1rem !important;
+    font-size: .9rem !important;
   }
   .hover-project span {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
     top: 30px !important;
-    right: 1.5rem !important;
+    right: 1.3rem !important;
+  }
+  .contact-content {
+    margin: 0 auto;
+    width: 75%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-content .right-contact {
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+  .contact-content .right-contact .contact-image {
+    margin-top: 0;
+  }
+  .contact-content .right-contact .contact-image {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-content .right-contact .contact-image img {
+    margin-left: 0;
+  }
+  .right-contact {
+    margin-bottom: 6rem;
+  }
+  .contact-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 1rem 0;
+  }
+  .contact-item p {
+    font-size: 1rem;
+  }
+  .contact-item .icon {
+    -ms-grid-columns: 25px 1fr;
+        grid-template-columns: 25px 1fr;
+  }
+  .contact-item .icon i {
+    font-size: 1rem !important;
+  }
+  .left-contact h4 {
+    margin-top: 0 !important;
+    font-size: 1.5rem !important;
+  }
+  .left-contact p {
+    font-size: 1rem;
+    margin: .7rem 0 !important;
+  }
+  .left-contact .contact-icon {
+    margin-top: 1.5rem !important;
+  }
+  .left-contact .contact-icon a {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .left-contact .contact-icon a i {
+    font-size: 1.4rem !important;
   }
 }
 /*# sourceMappingURL=media.css.map */

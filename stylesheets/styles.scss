@@ -440,7 +440,7 @@ section {
 
                 .icon {
                     display: grid;
-                    grid-template-columns: 40px 1fr ;
+                    grid-template-columns: 40px 1fr;
                     font-weight: 600;
 
                     i {
@@ -491,20 +491,22 @@ section {
     .right-contact {
         flex: 3;
         display: flex;
-        position: relative;
+        margin-left: 3rem;
+        // position: relative;
 
         .contact-image {
+            display: flex;
             border-radius: 5px;
             width: 100%;
             height: 80%;
             margin-top: 6rem;
-            margin-left: 10rem;
-        }
+            margin-left: 1.5rem;
 
-        img {
-            width: 80%;
-            height: 100%;
-            object-fit: cover;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         }
     }
 }
