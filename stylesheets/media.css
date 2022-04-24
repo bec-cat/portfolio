@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   header {
     padding: 0 !important;
   }
@@ -208,9 +208,6 @@
   }
   .subcontent-item .left-subcontent h4 span, .subcontent-item .center-subcontent h4 span, .subcontent-item .right-subcontent h4 span {
     font-size: .9rem !important;
-  }
-  .subcontent-container .subcontent-white {
-    padding: 3rem 18rem !important;
   }
   .subcontent-container .subcontent-green {
     padding: 8rem 0 !important;

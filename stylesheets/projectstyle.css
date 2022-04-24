@@ -71,8 +71,6 @@ body {
 }
 
 .subcontent-container .subcontent-white {
-  margin: -5rem -18rem;
-  padding: 5rem 18rem;
   background-color: white;
 }
 
@@ -337,7 +335,7 @@ body {
   font-weight: 400;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   header {
     padding: 0 !important;
   }
@@ -547,9 +545,6 @@ body {
   }
   .subcontent-item .left-subcontent h4 span, .subcontent-item .center-subcontent h4 span, .subcontent-item .right-subcontent h4 span {
     font-size: .9rem !important;
-  }
-  .subcontent-container .subcontent-white {
-    padding: 3rem 18rem !important;
   }
   .subcontent-container .subcontent-green {
     padding: 8rem 0 !important;
