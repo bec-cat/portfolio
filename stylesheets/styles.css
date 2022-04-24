@@ -40,7 +40,7 @@ a {
 }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   color: var(--color-primary);
   overflow: hidden;
   padding: 0 !important;
@@ -963,9 +963,6 @@ section {
   }
   .subcontent-item .left-subcontent h4 span, .subcontent-item .center-subcontent h4 span, .subcontent-item .right-subcontent h4 span {
     font-size: .9rem !important;
-  }
-  .subcontent-container .subcontent-white {
-    padding: 3rem 18rem !important;
   }
   .subcontent-container .subcontent-green {
     padding: 8rem 0 !important;
