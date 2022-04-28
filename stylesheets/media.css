@@ -200,12 +200,8 @@
   .left-contact .contact-icon a i {
     font-size: 1.4rem !important;
   }
-  .grim-image {
-    margin: 3.5rem auto;
-    width: 75%;
-  }
   .subcontent-item {
-    padding-bottom: 8rem;
+    margin-top: 0;
   }
   .subcontent-item .left-subcontent h4, .subcontent-item .center-subcontent h4, .subcontent-item .right-subcontent h4 {
     font-size: 1.1rem !important;
@@ -213,15 +209,16 @@
   .subcontent-item .left-subcontent h4 span, .subcontent-item .center-subcontent h4 span, .subcontent-item .right-subcontent h4 span {
     font-size: .9rem !important;
   }
-  .subcontent-container .subcontent-green {
-    padding: 8rem 0 !important;
-  }
   .subcontent-container .subcontent-title h3 {
     font-size: 1.6rem !important;
     margin-bottom: 1rem !important;
   }
   .subcontent-container p, .subcontent-container ul {
     font-size: .9rem;
+  }
+  .subcontent-container .view-btn {
+    font-size: .9rem;
+    padding: .8rem;
   }
 }
 /*# sourceMappingURL=media.css.map */

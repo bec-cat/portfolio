@@ -244,13 +244,11 @@
     }
 
     //grim-repair
-    .grim-image {
-        margin: 3.5rem auto;
-        width: 75%;
-    }
-
     .subcontent-item {
-        padding-bottom: 8rem;
+
+        margin-top: 0;
+        
+
         .left-subcontent, .center-subcontent, .right-subcontent{
             h4 {
                 font-size: 1.1rem !important;
@@ -263,10 +261,6 @@
     }
     
     .subcontent-container {
-        
-        .subcontent-green {
-            padding: 8rem 0 !important;
-        }
     
         .subcontent-title {
             h3 {
@@ -277,6 +271,11 @@
 
         p, ul {
             font-size: .9rem;
+        }
+
+        .view-btn {
+            font-size: .9rem;
+            padding: .8rem;
         }
     }
 }
