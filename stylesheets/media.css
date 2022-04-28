@@ -220,5 +220,37 @@
     font-size: .9rem;
     padding: .8rem;
   }
+  .subcontent-container .design-process {
+    margin: 0 auto !important;
+    left: 17% !important;
+  }
+  .subcontent-container .design-process img {
+    width: 70% !important;
+  }
+  .subcontent-container .task h5 {
+    font-size: 1.3rem !important;
+  }
+  .subcontent-container .task span {
+    font-size: 1rem !important;
+  }
+  .subcontent-container .task .task-list {
+    font-size: 1rem !important;
+    letter-spacing: .8px !important;
+  }
+  .subcontent-container .task .task-list .num {
+    font-size: .9rem !important;
+  }
+  .subcontent-container .subheading h4 {
+    font-size: 1rem !important;
+  }
+  .subcontent-container .subheading .subheading-wrl {
+    grid-gap: 2rem !important;
+  }
+  .subcontent-container .subheading .subheading-h {
+    margin-left: 3rem !important;
+  }
+  .subcontent-container .subheading .subheading-h img {
+    width: 65% !important;
+  }
 }
 /*# sourceMappingURL=media.css.map */

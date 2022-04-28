@@ -277,5 +277,51 @@
             font-size: .9rem;
             padding: .8rem;
         }
+
+        .design-process {
+            margin: 0 auto !important;
+            left: 17% !important;
+
+            img {
+                width: 70% !important;
+            }
+        }
+
+        .task {
+            h5 {
+                font-size: 1.3rem !important;
+            }
+
+            span {
+                font-size: 1rem !important;
+            }
+
+            .task-list {
+                font-size: 1rem !important;
+                letter-spacing: .8px !important;
+    
+                .num {
+                    font-size: .9rem !important;
+                }
+            }
+        }
+
+        .subheading {
+            h4 {
+                font-size: 1rem !important;
+            }
+
+            .subheading-wrl {
+                grid-gap: 2rem !important;
+            }
+
+            .subheading-h {
+                margin-left: 3rem !important;
+
+                img {
+                    width: 65% !important;
+                }                
+            }
+        }
     }
 }
