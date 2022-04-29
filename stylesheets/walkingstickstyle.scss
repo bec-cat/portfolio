@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+body {
+    background-color: #FFD7C0;
+    font-family: 'Patrick Hand SC', cursive;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.3rem;
+}
+
+.logo {
+    top: 7%;
+    right: 3%;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 95px;
+    }
+}
+
+.walking-stick {
+    // margin-left: 9rem;
+    margin: 0 auto;
+    width: 80%;
+    // height: 80%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.subcontent-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 63%;
+    margin: 0 auto;
+    margin-top: -4rem;
+    padding-bottom: 10rem;
+
+    .left-subcontent, .center-subcontent, .right-subcontent{
+        h4 {
+            font-size: 1.4rem;
+            font-weight: 600;
+
+            span {
+                font-weight: 400;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+.subcontent-container {
+
+    .subcontent-title {
+        h3 {
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    p {
+        font-size: 1.1rem;
+        line-height: 2.2rem;
+        font-weight: 400;
+
+        span {
+            font-weight: 600;
+        }
+    }
+
+    ul {
+        font-size: 1.1rem;
+        padding-left: 3rem;
+        font-weight: 600;
+        line-height: 2.7rem;
+        margin-block-start: 1rem;
+
+        span {
+            font-weight: 400;
+        }
+    }
+
+    .subcontent-info {
+        max-width: 1950px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        // background-color: white;
+
+        .bg {
+            margin: 0 auto;
+            width: 63%;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .subcontent-info2 {
+        max-width: 1950px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .subcontent-bg {
+            margin: 0 auto;
+            width: 63%;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+    }
+}
