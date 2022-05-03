@@ -204,6 +204,20 @@ section {
     padding-top: 3.5rem;
     padding-bottom: 5rem;
 
+    .left-about {
+        padding-right: 1rem;
+        
+        p {
+            line-height: 2.1rem;
+        }
+
+        h4 {
+            font-size: 2rem;
+            text-transform: uppercase;
+            padding-bottom: 1rem;
+        }
+    }
+
     .right-about {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -221,20 +235,7 @@ section {
         }
     }
 
-    .left-about {
-        padding-right: 5rem;
-        text-align: left;
-        
-        p {
-            line-height: 2.1rem;
-        }
-
-        h4 {
-            font-size: 2rem;
-            text-transform: uppercase;
-            padding-bottom: 1rem;
-        }
-    }
+    
 }
 
 // timeline

@@ -277,6 +277,20 @@ section {
   padding-bottom: 5rem;
 }
 
+.about-container .left-about {
+  padding-right: 1rem;
+}
+
+.about-container .left-about p {
+  line-height: 2.1rem;
+}
+
+.about-container .left-about h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
 .about-container .right-about {
   display: -ms-grid;
   display: grid;
@@ -295,21 +309,6 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: var(--br-sm-2);
-}
-
-.about-container .left-about {
-  padding-right: 5rem;
-  text-align: left;
-}
-
-.about-container .left-about p {
-  line-height: 2.1rem;
-}
-
-.about-container .left-about h4 {
-  font-size: 2rem;
-  text-transform: uppercase;
-  padding-bottom: 1rem;
 }
 
 .timeline {
@@ -798,10 +797,10 @@ section {
     font-size: 1.1rem !important;
   }
   .about-container {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
     width: 75%;
     margin: 0 auto;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
   }
   .about-container .right-about {
     padding-top: 1rem;
@@ -810,11 +809,7 @@ section {
     width: 160px !important;
     height: 230px !important;
   }
-  .about-container .left-about {
-    padding-right: 0;
-  }
   .about-container .left-about p {
-    padding-left: 0;
     font-size: 1.1rem;
   }
   .about-container .left-about h4 {
