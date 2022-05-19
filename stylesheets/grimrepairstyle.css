@@ -176,6 +176,11 @@ body {
   text-decoration: none;
 }
 
+.subcontent-container .subcontent-info .bg .subcontent-item .notes {
+  font-size: .8rem;
+  line-height: 1.8rem;
+}
+
 .subcontent-container .subcontent-info2 {
   background-color: #E0FFF0;
   max-width: 1950px;
