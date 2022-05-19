@@ -132,6 +132,13 @@ body {
   background-color: white;
 }
 
+.subcontent-container .subcontent-info3 img {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 .subcontent-container .subcontent-info3 .subcontent-white {
   margin-top: 0;
   margin: 0 auto;
@@ -151,5 +158,26 @@ body {
   width: 63%;
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.subcontent-container .subcontent-orange .orange-info h4 {
+  font-size: 1.1rem;
+}
+
+.subcontent-container .subcontent-orange .orange-info .stick-enclosure img {
+  height: 40%;
+  width: 40%;
+}
+
+.subcontent-container .subcontent-orange .orange-info .enclosure {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.subcontent-container .subcontent-orange .orange-info .enclosure img {
+  width: 60%;
+  height: 85%;
 }
 /*# sourceMappingURL=walkingstickstyle.css.map */

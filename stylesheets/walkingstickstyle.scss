@@ -129,6 +129,13 @@ body {
     .subcontent-info3 {
         background-color: white;
 
+        img {
+            margin: 0;
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
         .subcontent-white {
             margin-top: 0;
             margin: 0 auto;
@@ -148,6 +155,27 @@ body {
             width: 63%;
             padding-top: 5rem;
             padding-bottom: 5rem;
+
+            h4 {
+                font-size: 1.1rem;
+            }
+
+            .stick-enclosure {
+                img {
+                    height: 40%;
+                    width: 40%;
+                }
+            }
+            
+            .enclosure {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+
+                img {
+                    width: 60%;
+                    height: 85%;
+                }
+            }
         }
     }
 }
